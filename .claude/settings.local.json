@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(pwsh -NoProfile -Command \"pac --version\")",
+      "Bash(npx degit *)",
+      "Bash(npm install *)",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\nphoe\\\\Documents\\\\projects\\\\codeapps\\\\purchase-request-app\"; pwsh -NoProfile -Command \"pac code init --displayName 'Purchase Request App' -e 23f5db6b-4d5d-ed3a-b474-2f9e34ecd103\")",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\nphoe\\\\Documents\\\\projects\\\\codeapps\\\\purchase-request-app\"; pwsh -NoProfile -Command \"pac code init --displayName 'Purchase Request App' --environment 23f5db6b-4d5d-ed3a-b474-2f9e34ecd103\")",
+      "PowerShell(pwsh -NoProfile -Command \"pac install latest\")",
+      "Bash(npm run *)",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\nphoe\\\\Documents\\\\projects\\\\codeapps\\\\purchase-request-app\"; pwsh -NoProfile -Command \"pac code push\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\nphoe\\\\Documents\\\\projects\\\\codeapps\\\\purchase-request-app\\\\src\\\\styles\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\nphoe\\\\Documents\\\\projects\\\\codeapps\\\\purchase-request-app\\\\src\\\\preview\")",
+      "Bash(pwsh -NoProfile -Command \"pac code add-data-source -a dataverse -t cr38e_purchaserequest\")",
+      "Bash(pwsh -NoProfile -Command \"pac code add-data-source -a dataverse -t cr38e_purchaserequestapproval\")",
+      "Bash(pwsh -NoProfile -Command \"pac code add-data-source -a dataverse -t cr38e_purchaserequestdetail\")",
+      "Bash(pwsh -NoProfile -Command \"pac code add-data-source -a dataverse -t cr38e_richtextfile\")",
+      "Bash(pwsh -NoProfile -Command \"pac code add-data-source -a dataverse -t cr38e_project\")",
+      "Bash(pwsh -NoProfile -Command \"pac code add-data-source -a dataverse -t cr38e_masterorderingcatalog\")",
+      "PowerShell(cd \"C:\\\\Users\\\\nphoe\\\\Documents\\\\projects\\\\codeapps\\\\purchase-request-app\" && pwsh -NoProfile -Command \"pac code push\")",
+      "Bash(pwsh -NoProfile -Command \"pac code push\")"
+    ]
+  }
+}

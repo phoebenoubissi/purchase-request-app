@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "appId": "35ddfd51-e36d-46f2-ba45-e4b98607fde9",
+  "appDisplayName": "Purchase Request App",
+  "region": "prod",
+  "environmentId": "23f5db6b-4d5d-ed3a-b474-2f9e34ecd103",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "purchaserequests": {
+          "entitySetName": "cr38e_purchaserequests",
+          "logicalName": "cr38e_purchaserequest"
+        },
+        "purchaserequestapprovals": {
+          "entitySetName": "cr38e_purchaserequestapprovals",
+          "logicalName": "cr38e_purchaserequestapproval"
+        },
+        "purchaserequestdetails": {
+          "entitySetName": "cr38e_purchaserequestdetails",
+          "logicalName": "cr38e_purchaserequestdetail"
+        },
+        "richtextfiles": {
+          "entitySetName": "cr38e_richtextfiles",
+          "logicalName": "cr38e_richtextfile"
+        },
+        "projects": {
+          "entitySetName": "cr38e_projects",
+          "logicalName": "cr38e_project"
+        },
+        "masterorderingcatalogs": {
+          "entitySetName": "cr38e_masterorderingcatalogs",
+          "logicalName": "cr38e_masterorderingcatalog"
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}
