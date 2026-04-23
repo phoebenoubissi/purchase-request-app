@@ -12,6 +12,20 @@ dist
 dist-ssr
 *.local
 
+# Claude files — keep local, do not push to GitHub
+CLAUDE.md
+memory-bank.md
+BUILD-WITH-CLAUDE.md
+commands/
+.claude/
+
+# Power Platform — confidential environment config
+power.config.json
+
+# Internal reference files
+*.xlsx
+~$*
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
