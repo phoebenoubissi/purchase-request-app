@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@microsoft/power-apps": "^1.0.3",
@@ -33,7 +35,5 @@
   "overrides": {
     "uuid": "^10.0.0"
   },
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
   "homepage": "https://phoebenoubissi.github.io/purchase-request-app"
 }
